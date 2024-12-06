@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url("./ComicNeue-Regular.ttf");
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumpurple;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans";
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#month {
+    background-color: orangered;
+    margin: 0;
+    color: white;
+    padding: 1rem 7rem 1rem 7rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#weekday, #year {
+    color: gray;
+    font-size: 2rem;
+}
+
+#day {
+    font-weight: bold;
+    font-size: 5rem;
+    margin: 0;
+}
